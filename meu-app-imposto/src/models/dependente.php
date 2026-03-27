@@ -6,11 +6,15 @@
     use app\Enums\RelacaoParentesco\RelacaoParentesco;
 
     class Dependente {
-        public string $nome;
-        public string $cpf;
-        public string $dataNascimento;
-        public bool $eUniversitario;
+        public function __construct(
 
-        // Chamar enum
-        public RelacaoParentesco $relacaoParentesco;
+        private string $nome;
+        private string $cpf;
+        private string $dataNascimento;
+        private bool $eUniversitario;
+
+    )
+        //create getter to read a infos
+        public function getNome(): string {return $this -> nome;}
+        public function getParentesco(): RelacaoParentesco {return $this -> Parentesco; }
     }
