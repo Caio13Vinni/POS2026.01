@@ -1,0 +1,15 @@
+{
+    "entradas": {
+        "renda_tributavel": 123,
+        "rendimentos_isentos": 123,
+        "bens_direitos": 123,
+        "ganhos_bets": 3
+    },
+    "resultado": {
+        "obrigado_a_declarar": false,
+        "motivos_ativados": [
+            "Nenhum. Totalmente isento."
+        ],
+        "data_simulacao": "2026-03-30 00:35:37"
+    }
+}
